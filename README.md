@@ -25,7 +25,7 @@ research code, expect that it changes often and any fitness for a particular pur
 #### Dependencies
 
 - [Robot Operating System (ROS)](http://wiki.ros.org) (middleware for robotics),
-- [rm_description](https://github.com/gdut-dynamic-x/rm_description)
+- [rm_description-1](https://github.com/liyixin135/rm_description-1)
 - controller_interface
 - forward_command_controller
 - hardware_interface
@@ -37,8 +37,8 @@ To build from source, clone the latest version from this repository into your ca
 using
 
 	cd catkin_workspace/src
-	git clone git@github.com:gdut-dynamic-x/simple_chassis_controller.git
-    # git clone https://github.com/gdut-dynamic-x/simple_chassis_controller.git
+	git clone git@github.com:liyixin135/simple_chassis_controller.git
+    # git clone https://github.com/liyixin135/simple_chassis_controller.git
 	cd ../
 	rosdep install --from-paths . --ignore-src
 	catkin build
